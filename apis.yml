@@ -1,7 +1,18 @@
 aid: dyna-robotics
 name: Dyna Robotics
-description: 'Dyna Robotics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+image: https://www.dyna.co/dyna-logo.png
+description: 'Dyna Robotics is a Redwood City, California robotics AI company founded
+  in 2024 by Lindon Gao, York Yang and Jason Ma to build robot foundation models for
+  real-world commercial automation. Its DYNA-1 vision-language-action (VLA) model drives
+  pairs of stationary robotic arms through high-dexterity tasks such as napkin folding
+  and garment handling, and the company reports a 99%+ autonomous success rate over
+  24-hour continuous runs. Dyna targets commercial laundry, food service and factory
+  environments, and closed a $120M Series A in September 2025 led by Robostrategy,
+  CRV and First Round Capital with participation from NVentures, the Amazon Industrial
+  Innovation Fund, Salesforce Ventures, Samsung Next and LG Technology Ventures, following
+  a $23.5M seed. Dyna sells robotics-as-a-service rather than software: enrichment probing
+  of dyna.co found no public developer API, OpenAPI/AsyncAPI/GraphQL contract, SDK,
+  developer portal, MCP server, agent card, or event surface.'
 url: https://raw.githubusercontent.com/api-evangelist/dyna-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +23,26 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Machine Learning
+- Foundation Models
+- Automation
+- Manufacturing
+- Embodied AI
+- Robotics as a Service
+accessModel:
+  pricing: unknown
+  onboarding: contact-sales
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - https://www.dyna.co/contact
+  generated: '2026-08-04'
+  method: derived
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +50,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dyna-robotics-domain-security.yml
 - type: Website
+  url: https://www.dyna.co/
+- type: Blog
+  url: https://www.dyna.co/blog
+- type: Research
+  url: https://www.dyna.co/research
+- type: About
+  url: https://www.dyna.co/mission
+- type: Support
+  url: https://www.dyna.co/contact
+- type: AcceptableUsePolicy
+  url: https://www.dyna.co/acceptable-use-policy
+- type: Careers
+  url: https://www.dyna.co/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/dyna-robotics
+- type: Twitter
+  url: https://x.com/dynarobotics
+- type: YouTube
+  url: https://www.youtube.com/@Dyna-Robotics
+- type: SecondaryMarket
   url: https://forgeglobal.com/dyna-robotics_stock/
+- type: LLMsTxt
+  url: llms/dyna-robotics-llms.txt
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

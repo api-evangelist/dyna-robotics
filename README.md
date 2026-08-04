@@ -42,5 +42,24 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dyna Robotics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Dyna Robotics is a Redwood City, California robotics AI company founded in 2024 by Lindon Gao, York Yang and Jason Ma to build robot foundation models for real-world commercial automation. Its DYNA-1 vision-language-action (VLA) model drives pairs of stationary robotic arms through high-dexterity tasks such as napkin folding and garment handling, and the company reports a 99%+ autonomous success rate over 24-hour continuous runs. Dyna targets commercial laundry, food service and factory environments, and closed a $120M Series A in September 2025 led by Robostrategy, CRV and First Round Capital, following a $23.5M seed.
+
+## API surface
+
+Dyna sells robotics-as-a-service, not software. Enrichment probing on 2026-08-04 found **no public
+developer API**: no OpenAPI/Swagger, AsyncAPI, GraphQL, MCP server, A2A agent card, SDK, package,
+CLI, changelog, status page, or developer portal. `api.dyna.co`, `docs.dyna.co`, `developers.dyna.co`,
+`app.dyna.co`, `portal.dyna.co` and `console.dyna.co` do not resolve. The `www.dyna.co` origin returns
+HTTP 200 with the homepage for every unknown path, so `/.well-known/*` and `/openapi.json` probes that
+answer 200 are the single-page-app catch-all, not documents. The public GitHub org
+`github.com/dyna-robotics` exists but has zero public repositories.
+
+## Artifacts
+
+- `security/dyna-robotics-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
+- `llms/dyna-robotics-llms.txt` — generated llms.txt profile
+
+## Links
+
+- https://www.dyna.co/
 - https://forgeglobal.com/dyna-robotics_stock/
