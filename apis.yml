@@ -36,7 +36,7 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Automation
 - Manufacturing
@@ -52,6 +52,7 @@ tags_raw:
 - Manufacturing
 - Embodied AI
 - Robotics as a Service
+- Machine-Learning
 accessModel:
   pricing: unknown
   onboarding: contact-sales
