@@ -64,24 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dyna Robotics is a Redwood City, California robotics AI company founded in 2024 by Lindon Gao, York Yang and Jason Ma to build robot foundation models for real-world commercial automation. Its DYNA-1 vision-language-action (VLA) model drives pairs of stationary robotic arms through high-dexterity tasks such as napkin folding and garment handling, and the company reports a 99%+ autonomous success rate over 24-hour continuous runs. Dyna targets commercial laundry, food service and factory environments, and closed a $120M Series A in September 2025 led by Robostrategy, CRV and First Round Capital, following a $23.5M seed.
+Dyna Robotics is a Redwood City, California robotics AI company founded in 2024 by Lindon Gao, York Yang and Jason Ma to build robot foundation models for real-world commercial automation. Its DYNA-1 vision-language-action (VLA) model drives pairs of stationary robotic arms through high-dexterity tasks such as napkin folding and garment handling, and the company reports a 99%+ autonomous success rate over 24-hour continuous runs. Dyna targets commercial laundry, food service and factory environments, and closed a $120M Series A in September 2025 led by Robostrategy, CRV and First Round Capital with participation from NVentures, the Amazon Industrial Innovation Fund, Salesforce Ventures, Samsung Next and LG Technology Ventures, following a $23.5M seed. Dyna sells robotics-as-a-service rather than software: enrichment probing of dyna.co found no public developer API, OpenAPI/AsyncAPI/GraphQL contract, SDK, developer portal, MCP server, agent card, or event surface.
 
-## API surface
+**Areas:** Company · Robotics · Artificial Intelligence · Machine Learning · Foundation Models · Automation · Manufacturing · Embodied AI · Robotics as a Service
 
-Dyna sells robotics-as-a-service, not software. Enrichment probing on 2026-08-04 found **no public
-developer API**: no OpenAPI/Swagger, AsyncAPI, GraphQL, MCP server, A2A agent card, SDK, package,
-CLI, changelog, status page, or developer portal. `api.dyna.co`, `docs.dyna.co`, `developers.dyna.co`,
-`app.dyna.co`, `portal.dyna.co` and `console.dyna.co` do not resolve. The `www.dyna.co` origin returns
-HTTP 200 with the homepage for every unknown path, so `/.well-known/*` and `/openapi.json` probes that
-answer 200 are the single-page-app catch-all, not documents. The public GitHub org
-`github.com/dyna-robotics` exists but has zero public repositories.
+## Dyna Robotics on APIs.io
 
-## Artifacts
+Everything profiled for Dyna Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dyna-robotics/](https://apis.io/providers/dyna-robotics/)** — or go straight to one of the APIs or properties below.
 
-- `security/dyna-robotics-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
-- `llms/dyna-robotics-llms.txt` — generated llms.txt profile
+### Published properties
 
-## Links
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- https://www.dyna.co/
-- https://forgeglobal.com/dyna-robotics_stock/
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dyna Robotics Domain Security](https://apis.io/security/dyna-robotics/dyna-robotics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.dyna.co/)
+- [Support](https://www.dyna.co/contact)
+- [Blog](https://www.dyna.co/blog)
+
+## API Evangelist rating
+
+**Kin Score 3.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dyna-robotics/](https://apis.io/providers/dyna-robotics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dyna Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dyna-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
